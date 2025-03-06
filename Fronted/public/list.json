@@ -1,0 +1,82 @@
+[
+    {
+    "id":1,
+    "name":"Story Book",
+    "title":"The Whispering Shadows",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107844.jpg?t=st=1738404618~exp=1738408218~hmac=94c6a70d29ee4fb881365d2aefb4343fbedc0b947698f9a0e3f513ae8a117cb3&w=1060"
+},
+{
+    "id":2,
+    "name":"Comedy Book",
+    "title":"Laugh Till You Drop",
+    "price":50,
+    "category":"comedy",
+    "image":"https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107844.jpg?t=st=1738404618~exp=1738408218~hmac=94c6a70d29ee4fb881365d2aefb4343fbedc0b947698f9a0e3f513ae8a117cb3&w=1060"
+},
+{
+    "id":3,
+    "name":"Sports",
+    "title":"Sweat, Sacrifice, and Success",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107844.jpg?t=st=1738404618~exp=1738408218~hmac=94c6a70d29ee4fb881365d2aefb4343fbedc0b947698f9a0e3f513ae8a117cb3&w=1060"
+},
+{
+    "id":4,
+    "name":"Science",
+    "title":"The Wonders of the Universe",
+    "price":200,
+    "category":"Science",
+    "image":"https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107844.jpg?t=st=1738404618~exp=1738408218~hmac=94c6a70d29ee4fb881365d2aefb4343fbedc0b947698f9a0e3f513ae8a117cb3&w=1060"
+},
+{
+    "id":5,
+    "name":"Aggriculture",
+    "title":"Farming for the Future",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107844.jpg?t=st=1738404618~exp=1738408218~hmac=94c6a70d29ee4fb881365d2aefb4343fbedc0b947698f9a0e3f513ae8a117cb3&w=1060"
+},
+{
+    "id":6,
+    "name":"Computer and Technology",
+    "title":"AI and the Future of Humanity",
+    "price":300,
+    "category":"It",
+    "image":"https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107844.jpg?t=st=1738404618~exp=1738408218~hmac=94c6a70d29ee4fb881365d2aefb4343fbedc0b947698f9a0e3f513ae8a117cb3&w=1060"
+},
+{
+    "id":7,
+    "name":" Medical & Healthcare",
+    "title":"The Future of Medicine",
+    "price":200,
+    "category":" Healthcare",
+    "image":"https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107844.jpg?t=st=1738404618~exp=1738408218~hmac=94c6a70d29ee4fb881365d2aefb4343fbedc0b947698f9a0e3f513ae8a117cb3&w=1060"
+},
+{
+    "id":8,
+    "name":"Music",
+    "title":"The Art of Playing the Piano",
+    "price":100,
+    "category":"songs",
+    "image":"https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107844.jpg?t=st=1738404618~exp=1738408218~hmac=94c6a70d29ee4fb881365d2aefb4343fbedc0b947698f9a0e3f513ae8a117cb3&w=1060"
+},
+{
+    "id":9,
+    "name":"law",
+    "title":"The Power of the Law",
+    "price":0,
+    "category":"Justice",
+    "image":"https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107844.jpg?t=st=1738404618~exp=1738408218~hmac=94c6a70d29ee4fb881365d2aefb4343fbedc0b947698f9a0e3f513ae8a117cb3&w=1060"
+},
+{
+    "id":10,
+    "name":"Thiraler",
+    "title":"The shadow of night",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107844.jpg?t=st=1738404618~exp=1738408218~hmac=94c6a70d29ee4fb881365d2aefb4343fbedc0b947698f9a0e3f513ae8a117cb3&w=1060"
+}
+]
