@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 
 
 
+
 function Courses() {
   
  

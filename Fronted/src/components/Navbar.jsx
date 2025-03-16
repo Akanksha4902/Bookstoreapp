@@ -1,7 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
 import Login from "./Login";
+import Logout from "./Logout";
+import { useAuth } from "../context/AuthProvider";
 
 const Navbar = () => {
+  const [authUser,setAuthUser]= useAuth();
+  console.log(authUser);
+
+ 
   const [theme, setTheme] = useState(() => {
     return typeof window !== "undefined" && localStorage.getItem("theme")
       ? localStorage.getItem("theme")
@@ -39,7 +45,7 @@ const Navbar = () => {
     <>
       <li><a href="/">Home</a></li>
       <li><a href="/Course">Course</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="/Contact">Contact</a></li>
       <li><a href="#">About</a></li>
     </>
   );
@@ -93,14 +99,20 @@ const Navbar = () => {
               )}
             </button>
 
-            {/* Login Button */}
-            <a className="bg-white text-black px-3 py-2 rounded-md hover:bg-slate-800 transition duration-300"
+            {
+              authUser?(<Logout/>
+              ):(
+           
+          <div className="">
+           <a className="bg-white text-black px-3 py-2 rounded-md hover:bg-slate-800 transition duration-300"
               onClick={()=>
                 document.getElementById("my_modal_3").showModal()
               }>
               Login
             </a>
             <Login />
+           </div>
+            )}
           </div>
         </div>
       </div>
